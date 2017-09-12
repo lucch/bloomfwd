@@ -1,0 +1,12 @@
+" vim: ts=4 sw=4 et
+"
+" Project specific Vim settings.
+
+let g:syntastic_c_compiler_options = '-Wall -std=c11 -fopenmp'
+let g:syntastic_c_include_dirs =
+    \ [g:localvimrc_script_dir . '/lib/minunit',
+    \  g:localvimrc_script_dir . '/lib/qlibc/include/qlibc',
+    \  g:localvimrc_script_dir . '/lib/uthash/include',
+    \  g:localvimrc_script_dir . '/src'
+    \ ]
+

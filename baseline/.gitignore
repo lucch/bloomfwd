@@ -1,0 +1,18 @@
+# Executables
+a.out
+bloomfwd
+
+# Directories
+build/
+bin/
+bench/res/
+
+# Files
+.o
+.dll
+.a
+.so
+
+# Util
+.tags
+

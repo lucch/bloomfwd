@@ -1,0 +1,18 @@
+# Executables
+a.out
+miht
+
+# Directories
+build/
+bin/
+bench/res/
+
+# Files
+.o
+.dll
+.a
+.so
+
+# Util
+.tags
+
