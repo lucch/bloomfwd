@@ -1,5 +1,7 @@
 # Source code of Bloomfwd and MIHT
 
+See: [High-performance IP lookup using Intel Xeon Phi: a Bloom filters based approach](https://link.springer.com/article/10.1186/s13174-017-0075-y).
+
 ## Algorithms
 
   - `baseline`: Baseline BFs algorithm (uses C `rand()` function for hashing).
@@ -98,4 +100,9 @@ form.
 This is a text file with just one column containing a list of input addresses
 for lookup. The first row in this file must be an integer with the amount of
 addresses to perform the lookup for. Again, for IPv4, the addresses must be
-represented in CIDR notation and, for IPv6, in canonical form. 
+represented in CIDR notation and, for IPv6, in canonical form.
+
+---
+
+Note: the source code in this repo was originally hosted in
+[BitBucket](https://bitbucket.org/gteodoro/bloomfwd).
